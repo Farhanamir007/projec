@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,400;1,500&family=Kanit:ital,wght@0,400;0,500;1,500&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700;1,800&family=Poppins:wght@300;400;500;700&family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.sec1 {
+    display: flex;
+    width: 1220px;
+    height: 500px;
+    background-color: rgb(250, 250, 250);
+    margin: 0 auto;
+}
+
+p {
+    text-align: justify;
+}
+
+.line {
+    width: 5px;
+    display: inline-block;
+    background-color: red;
+    height: 60px;
+    margin-top: 5px;
+
+}
+
+.left {
+    display: inline-block;
+    width: 500px;
+    margin-left: 10px;
+
+}
+
+.left h2 {
+    color: red;
+}
+
+
+.logo>img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    margin-left: 170px;
+
+}
+
+.btn {
+    width: 120px;
+    height: 40px;
+    background-color: red;
+    border-width: 0;
+    border-radius: 10px 0 10px 0;
+    margin: 10px 0;
+}
+
+.sec2 {
+
+    width: 1220px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.sec2>h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.sec2 span {
+    color: red;
+}
+
+.container-card {
+    display: flex;
+    gap: 170px;
+}
+
+.card {
+    width: 300px;
+    background-color: rgba(238, 240, 166, 0.963);
+    padding: 20px;
+
+}
+
+.same {
+    background-color: rgb(185, 233, 239);
+}
+
+i {
+    color: rgb(51, 37, 37);
+    font-size: 60px;
+}
+
+.right-bar {}
+
+.side-bar {
+    padding: 10px;
+    width: 500px;
+    margin-left: 50px;
+
+}
+
+section {
+    margin-bottom: 100px;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    width: 1220px;
+    margin: 0 auto;
+}
+
+footer span {
+    color: red;
+}
